@@ -12,7 +12,7 @@
 $ git clone https://github.com/zokMeodoff/otus_hw20.git
 
 Установка необходимых зависимостей:
-$ cd otus_hw13/otus_courses_site_frontend/
+$ cd otus_hw20/
 $ npm install
 
 Запуск:
