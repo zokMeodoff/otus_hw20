@@ -23,18 +23,18 @@ class CoursesComponent extends Component {
         if (this.state.loaded) {
             return (
             	<div className="container">
-				    <h2 className="h">Популярные курсы</h2>
-				    <div className="row row_justify_space-between">
-                        {
-                            this.state.courses.map((course) =>
-                                <CourseCard
-                                    course={course}
-                                    key={course.name}
-                                />
-                            )
-                        }
-				</div>
+			<h2 className="h">Популярные курсы</h2>
+			<div className="row row_justify_space-between">
+			{
+			    this.state.courses.map((course) =>
+				<CourseCard
+				    course={course}
+				    key={course.name}
+				/>
+			    )
+			}
 			</div>
+		</div>
             )
         } else {
             return (
